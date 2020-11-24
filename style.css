@@ -1,0 +1,21 @@
+h2{
+	color:#32a852;
+	display:flex; 
+	justify-content:center;
+	padding:40px; 
+	flex: inline;   
+}
+h2:before{
+ content:'';
+ background-color:#19b076; 
+ width:300px;
+ height:3px; 
+ margin: 12px;  
+}
+h2:after{
+ content:'';
+ background-color:#19b076; 
+ width:300px;
+ height:3px;
+ margin:12px;  
+ }
